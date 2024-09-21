@@ -1,22 +1,38 @@
-
-
-.flex-box {
+* {
     background-color: gray;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 150px;
 }
 
-.content1 {
-    background-color: red;
+.flex-box {
+background-color: white;
+color: white;
+display: flex;
+flex-direction: column;
+height: 600px;
+width: 200px;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.content {
+background-color: red;
+box-sizing: border-box;
+width: 180px;
+height: 180px;
+border: 12px solid darkred;
 }
 
 .content2 {
-    background-color: yellow;
+background-color: yellow;
+box-sizing: border-box;
+width: 180px;
+height: 180px;
+border: 12px solid rgb(227, 153, 6);
 }
 
 .content3 {
 background-color: green;
+box-sizing: border-box;
+width: 180px;
+height: 180px;
+border: 12px solid darkgreen;
 }
