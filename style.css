@@ -1,60 +1,57 @@
 * {
-  background-color: gray;
-  box-sizing: border-box;
+    background-color: gray;
 }
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ;
 }
 .trafficlight {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  width: 200px;
-  align-items: center;
-  justify-content: space-evenly;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 .box1 {
-  background-color: red;
-  width: 180px;
-  height: 180px;
-  border: solid 12px darkred;
+    background-color: red;
+    display: flex;
+    align-items: end;
+    width: 180px;
+    height: 180px;
+    border: solid 10px darkred;
+    margin: 10px;
 }
 .box2 {
-  background-color: yellow;
-  width: 180px;
-  height: 180px;
-  border: solid 10px rgb(227, 153, 6);
+    background-color: yellow;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 180px;
+    height: 180px;
+    border: solid 10px rgb(227, 153, 6);
+    margin: 0 10px;
 }
 .box3 {
-  background-color: green;
-  width: 180px;
-  height: 180px;
-  border: solid 10px darkgreen;
+    background-color: green;
+    display: flex;
+    align-items: end;
+    width: 180px;
+    height: 180px;
+    border: solid 10px darkgreen;
+    margin: 10px;
 }
-.box4 {
-  border: solid 10px darkred;
-  background-color: lightcoral;
-  background-clip: padding-box;
-  box-shadow: inset 0 80px #ff0000;
-  width: 180px;
-  height: 180px;
+.small_redbox {
+    background-color: lightcoral;
+    width: 100%;
+    height: 50%;
 }
-.box5 {
-  background-color: lightgoldenrodyellow;
-  background-clip: padding-box;
-  box-shadow: inset 80px 80px 0 0px #ffff00;
-  width: 180px;
-  height: 180px;
-  border: solid 10px rgb(227, 153, 6);
+.small_yellowbox {
+    background-color: lightgoldenrodyellow;
+    width: 50%;
+    height: 50%;
 }
-.box6 {
-  background-color: lightgreen;
-  background-clip: padding-box;
-  box-shadow: inset -80px 80px 0 0px #008000;
-  width: 180px;
-  height: 180px;
-  border: solid 10px darkgreen;
+.small_greenbox {
+    background-color: lightgreen;
+    width: 50%;
+    height: 50%;
 }
